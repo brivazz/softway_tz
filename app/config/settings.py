@@ -21,7 +21,7 @@ base_settings = [
     'components/common.py',
     'components/database.py',
     'components/hosts.py',
-    # 'components/debug_logging.py',
+    'components/debug_logging.py',
     'components/templates.py',
 ]
 
