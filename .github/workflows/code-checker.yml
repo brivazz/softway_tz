@@ -38,7 +38,7 @@ jobs:
         id: run_linters
         run: flake8
             --config=setup.cfg
-            --exclude=app/books_management/migrations
+            --exclude=app/task_management/migrations
             --format=html
             --htmldir=flake8-report .
         continue-on-error: true
